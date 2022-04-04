@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <div id="pre-form">
+      <h2>We'd love to hear your thoughts!</h2>
+    </div>
+
+    <div class="form-container">
+      <form id="form" name="form">
+        <h3>Contact Us Here:</h3>
+        <p id="message"></p>
+
+        <label>Name:</label>
+        <input id="name" placeholder="Name" type="text"><br>
+        <label>Email:</label>
+        <input id="email" placeholder="Email" type="email"><br>
+        <label>Number:</label>
+        <input
+          id="phone"
+          placeholder="10 digit phone number."
+          type="tel">
+          <br>
+        <label>Message:</label>
+        <textarea
+          id="message-area"
+          placeholder="Your thoughts here :)"
+        ></textarea
+        ><br>
+        <input id="submit" type="button" value="Send It!">
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
